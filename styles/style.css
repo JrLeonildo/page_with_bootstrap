@@ -1,1 +1,46 @@
-/*@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+/*@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");*/
+*{
+  font-family: sans-serif;
+}
+.bg-primary-color{
+  background-color: #fff;
+}
+.bg-secundary-color{
+  background-color: #ece8ea;
+}
+.bg-dark-color{
+  background-color: #050505;
+}
+.primary-color{
+  color: #050505;
+}
+.secundary-color{
+  color: #7a7a7a;
+}
+
+/*navbar*/
+#navbar{
+  border-bottom: solid 1px #7a7a7a;
+}
+#navbar a:hover{
+  color: #7a7a7a;
+}
+#navbar a.active{
+  border-bottom: solid 1px #050505;
+}
+.navbar-brand{
+  display: flex;
+}
+.navbar-brand img{
+  width: 400px;
+}
+.navbar-brand span{
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+#navbar-items .navbar-nav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
